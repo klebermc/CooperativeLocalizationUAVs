@@ -1,0 +1,23 @@
+# Simulink / MATLAB build output and autosaves
+slprj/
+*.slxc
+*.mexw64
+*.mexa64
+*.mexmaci64
+*_sfun.*
+*.asv
+*.autosave
+*.slx.r20*
+*.ttt.bak
+
+# V-REP remote API files (copy from your V-REP install, see README)
+src/remApi.m
+src/remoteApiProto.m
+src/remoteApi.dll
+src/remoteApi.so
+src/remoteApi.dylib
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+*.swp
