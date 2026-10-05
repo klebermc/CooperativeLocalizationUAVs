@@ -14,6 +14,12 @@ It extends the range-based localization idea of the
 [ALOS acoustic localization system](https://doi.org/10.1109/ICCSPA.2019.8713689)
 (ICCSPA 2019). Here the fixed beacons are replaced by other flying quadrotors.
 
+<p align="center">
+  <img src="figures/scenario1_estimation.gif" alt="Scenario 1 replayed from the saved results: noisy trilateration fixes, the Kalman filter estimate and the true position of the mobile target" width="840">
+</p>
+
+*Scenario 1 replayed from the saved simulation results (`results/quadrotor3_var_PT1.mat`): the mobile target in the X-Z and Y-Z planes, and each axis over time.*
+
 ## What it does
 
 A group of quadrotors flies together. Three *mobile references* know their own position
