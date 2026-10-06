@@ -15,10 +15,10 @@ It extends the range-based localization idea of the
 (ICCSPA 2019). Here the fixed beacons are replaced by other flying quadrotors.
 
 <p align="center">
-  <img src="figures/scenario1_estimation.gif" alt="Scenario 1 replayed from the saved results: noisy trilateration fixes, the Kalman filter estimate and the true position of the mobile target" width="840">
+  <img src="figures/scenario1_replay_3d.gif" alt="Scenario 1 replayed in CoppeliaSim: three hovering reference quadrotors and the mobile target, with its true path, the Kalman filter estimate, the trilateration fixes and the range measurements" width="840">
 </p>
 
-*Scenario 1 replayed from the saved simulation results (`results/quadrotor3_var_PT1.mat`): the mobile target in the X-Z and Y-Z planes, and each axis over time.*
+*Scenario 1 replayed in CoppeliaSim from the saved simulation results (`results/quadrotor3_var_PT1.mat`): the references hover at the positions of the report's table 4.2 while the target ascends, hovers and translates. The vehicles are placed from the logged data and drawn with CoppeliaSim's stock quadcopter model; the paths, fixes and range lines are overlaid on the camera image.*
 
 ## What it does
 
