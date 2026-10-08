@@ -1,6 +1,6 @@
 # CooperativeLocalizationUAVs
 
-> **Note:** All code in this repository was written by Kleber Cabral. The README documentation and inline code comments were added with AI assistance (Claude).
+> **Note:** The code in this repository was written by Kleber Cabral. Some files start from other sources: the S-functions follow MathWorks' Level-1 MATLAB S-function template, and the V-REP scene uses the quadcopter model that ships with V-REP. The README documentation and inline code comments were added with AI assistance (Claude).
 
 Cooperative localization of a quadrotor using range measurements to other UAVs, fused
 with accelerometer data in a Kalman filter. Simulated with MATLAB/Simulink and V-REP.
